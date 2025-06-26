@@ -1,0 +1,49 @@
+{
+  "name": "@bcoders.gr/abi-toolkit",
+  "version": "2.0.0",
+  "description": "Comprehensive Ethereum ABI toolkit combining high-performance encoding/decoding with production-ready contract interaction utilities",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node test/index.test.js",
+    "example": "node examples/index.js"
+  },
+  "keywords": [
+    "ethereum",
+    "abi",
+    "encoding",
+    "decoding",
+    "smart-contracts",
+    "web3",
+    "uniswap",
+    "erc20",
+    "defi",
+    "blockchain",
+    "solidity",
+    "informer",
+    "token-trader",
+    "pair-details",
+    "reserves"
+  ],
+  "author": "bcoders.gr",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pagovitsa/abi-toolkit.git"
+  },
+  "files": [
+    "index.js",
+    "lib/",
+    "README.md",
+    "CHANGELOG.md"
+  ],
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {
+    "js-sha3": "^0.9.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
