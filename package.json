@@ -1,6 +1,6 @@
 {
   "name": "@bcoders.gr/abi-toolkit",
-  "version": "2.1.1",
+  "version": "2.2.0",
   "description": "Comprehensive Ethereum ABI toolkit combining high-performance encoding/decoding with production-ready contract interaction utilities",
   "main": "index.js",
   "type": "module",
