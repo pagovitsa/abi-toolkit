@@ -5,7 +5,10 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "node test/index.test.js",
+    "test": "node test/comprehensive-tests.js",
+    "test:integration": "node test/integration-test.js",
+    "test:performance": "node test/performance-test.js",
+    "test:log-decoder": "node test/log-decoder-fix-test.js",
     "example": "node examples/index.js"
   },
   "keywords": [
